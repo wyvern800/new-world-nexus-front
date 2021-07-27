@@ -6,6 +6,63 @@
       "smallDescription": "A small post description",
       "content": "Post content",
       "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
+      "dateInsert": "2021-05-21T01:14:00.221Z",
+      "dateUpdate": "2021-06-26T16:01:12.442Z"
+    },
+    {
+      "id": 2,
+      "title": "A normal post 2.0",
+      "smallDescription": "A small post description",
+      "content": "Post content",
+      "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
+      "dateInsert": "2021-05-21T01:14:00.221Z",
+      "dateUpdate": "2021-06-26T16:01:12.442Z"
+    },
+    {
+      "id": 3,
+      "title": "A normal post 3.0",
+      "smallDescription": "A small post description",
+      "content": "Post content",
+      "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
+      "dateInsert": "2021-05-21T01:14:00.221Z",
+      "dateUpdate": "2021-06-26T16:01:12.442Z"
+    },
+    {
+      "id": 4,
+      "title": "A normal post 5.0",
+      "smallDescription": "A small post description",
+      "content": "Post content",
+      "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
+      "dateInsert": "2021-05-21T01:14:00.221Z",
+      "dateUpdate": "2021-06-26T16:01:12.442Z"
+    },
+    {
+      "id": 5,
+      "title": "Nerf no char do gabriel",
+      "smallDescription": "A small post description",
+      "content": "Post content",
+      "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
+      "dateInsert": "2021-05-21T01:14:00.221Z",
+      "dateUpdate": "2021-06-26T16:01:12.442Z"
+    },
+    {
+      "id": 6,
+      "title": "Dandara reis",
+      "smallDescription": "A small post description",
+      "content": "Post content",
+      "author": "wyvern800",
+      "smallImage": "",
+      "bigImage": "",
       "dateInsert": "2021-05-21T01:14:00.221Z",
       "dateUpdate": "2021-06-26T16:01:12.442Z"
     }
