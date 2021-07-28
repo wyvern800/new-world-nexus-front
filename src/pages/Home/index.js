@@ -12,28 +12,27 @@ export default class Home extends Component {
         <Container>
           {/* Everything in the TOP goes here */}
           <div className="topContainer">
-            <div className="topBlock">Top Block</div>
+            <div className="topBlock">Home  |  Games</div>
           </div>
 
           <div className="contentWrapper">
             {/* Everything in the LEFT goes here */}
-            <div className="leftContainer">
-              <div className="sidePanel">
+            {/** <div className="leftContainer">
+              <div className="panelWidget">
                 <PanelHeader panelTitle="Panel 1" />
                 Panel Content
               </div>
 
-              <div className="sidePanel">
+              <div className="panelWidget">
                 <PanelHeader panelTitle="Panel 2" />
                 Panel Content
               </div>
-            </div>
+            </div> **/}
 
             {/* Everything in the MIDDLE goes here */}
             <div className="midContainer">
               <div>
-                <div className="sidePanel">
-                  <PanelHeader panelTitle="Posts" />
+                <div className="panelWidget">
                   <PostsList />
                 </div>
               </div>
@@ -41,7 +40,7 @@ export default class Home extends Component {
 
             {/* Everything in the RIGHT goes here */}
             <div className="rightContainer">
-              <div className="sidePanel">
+              <div className="panelWidget">
                 <PanelHeader panelTitle="Panel 3" />
                 Panel Content
               </div>

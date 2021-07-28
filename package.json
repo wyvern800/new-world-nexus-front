@@ -57,11 +57,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "3.7.1"
   },
-  "devServer": {
-    "historyApiFallback": true
-  },
   "scripts": {
-    "dev": "webpack-dev-server  --mode development",
+    "dev": "webpack-dev-server  --mode development --history-api-fallback",
     "json-server": "json-server --watch mocks/data.json --routes mocks/routes.json --port 3001 --middlewares mocks/middlewares/index.js",
     "build": "webpack --mode production"
   }

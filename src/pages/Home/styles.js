@@ -11,6 +11,12 @@ export const Container = styled.div`
     flex-direction: row;
   }
 
+  @media only screen and (max-width: 600px) {
+    .contentWrapper {
+      flex-direction: column;
+    }
+  }
+
   // Top container used by the AD_01 hotspot
   .topContainer {
     display: flex;
@@ -19,13 +25,14 @@ export const Container = styled.div`
 
   // Left container
   .leftContainer {
-    flex-grow: 4; /* default 0 */
+    flex-grow: 0; /* default 0 */
+    min-width: 10px;
     flex-direction: column;
   }
 
   // Middle container
   .midContainer {
-    flex-grow: 5; /* default 0 */
+    flex-grow: 1; /* default 0 */
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
