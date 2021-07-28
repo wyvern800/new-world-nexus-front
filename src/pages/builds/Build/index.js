@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import { Container } from './styles';
 
-export default class Builds extends Component {
+export default class Build extends Component {
   render() {
     return (
       <>
         <Container>
-          Builds
+          Build
         </Container>
       </>
     );

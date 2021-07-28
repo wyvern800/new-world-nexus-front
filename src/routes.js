@@ -2,15 +2,21 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Builds from "./pages/Builds";
-import Posts from "./pages/Posts";
+import Build from "./pages/builds/Build";
+import Article from "./pages/articles/Article";
+import Articles from "./pages/articles/Articles";
 
 export default function Routes() {
   return (
     <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/builds" exact component={Builds} />
-        <Route path="/posts/:id" component={Posts} />
+
+        {/** builds **/}
+        <Route path="/builds" exact component={Build} />
+
+        {/** articles **/}
+        <Route exact path="/articles" component={Articles} />
+        <Route path="/articles/:id" component={Article} />
     </Switch>
   );
 }

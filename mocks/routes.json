@@ -1,5 +1,5 @@
 {
-  "/posts": "/posts",
-  "/posts?_page=1&_limit=5": "/posts?_page=1&_limit=5",
-  "/posts/:id": "/posts/:id"
+  "/articles": "/articles",
+  "/articles?_page=1&_limit=5": "/articles?_page=1&_limit=5",
+  "/articles/:id": "/articles/:id"
 }

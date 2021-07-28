@@ -9,23 +9,23 @@ import { Link } from 'react-router-dom';
 export default class Home extends Component {
   state = {
     loading: true,
-    posts: [],
+    articles: [],
   };
 
   async componentDidMount() {
-    const response = await api.get(`/posts?limit=5`);
+    const response = await api.get(`/articles?limit=5`);
 
     const data = response.data.map((post) => ({
       ...post,
     }));
 
-    this.setState({ posts: data, loading: false });
+    this.setState({ articles: data, loading: false });
   }
 
   async openPost(id) {}
 
   render() {
-    const { posts, loading } = this.state;
+    const { articles, loading } = this.state;
 
     return (
       <Container>
@@ -35,18 +35,19 @@ export default class Home extends Component {
           </>
         ) : (
           <>
-            {posts.map((post) => (
+
+            {articles.map((article) => (
               <div
-                key={post.id}
+                key={article.id}
                 className="post_card"
-                onClick={()=> this.openPost(post.id)}
+                onClick={()=> this.openPost(article.id)}
               >
-                <Link to={'/posts/' + post.id}>
+                <Link to={'/articles/' + article.id}>
                   <div>
-                    <img src={post.smallImage} />
+                    <img src={article.smallImage} />
                     <div>
-                      <h3>{post.title}</h3>
-                      <p>{post.content}</p>
+                      <h3>{article.title}</h3>
+                      <p>{article.content}</p>
                     </div>
                   </div>
                 </Link>

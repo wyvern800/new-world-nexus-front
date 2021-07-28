@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import PostsList from '../../assets/components/PostsList';
+import ListArticles from '../../assets/components/ListArticles';
 import PanelHeader from '../../assets/components/PanelHeader';
 
 import { Container } from './styles';
@@ -11,36 +11,34 @@ export default class Home extends Component {
       <>
         <Container>
           {/* Everything in the TOP goes here */}
-          <div className="topContainer">
-            <div className="topBlock">Home  |  Games</div>
-          </div>
+          {/* <div className="block-top">Home</div> */}
 
-          <div className="contentWrapper">
+          <div className="main">
             {/* Everything in the LEFT goes here */}
-            {/** <div className="leftContainer">
-              <div className="panelWidget">
+            {/** <div className="block-left">
+              <div className="block-panel">
                 <PanelHeader panelTitle="Panel 1" />
                 Panel Content
               </div>
 
-              <div className="panelWidget">
+              <div className="block-panel">
                 <PanelHeader panelTitle="Panel 2" />
                 Panel Content
               </div>
             </div> **/}
 
             {/* Everything in the MIDDLE goes here */}
-            <div className="midContainer">
+            <div className="block-middle">
               <div>
-                <div className="panelWidget">
-                  <PostsList />
+                <div className="block-panel">
+                  <ListArticles />
                 </div>
               </div>
             </div>
 
             {/* Everything in the RIGHT goes here */}
-            <div className="rightContainer">
-              <div className="panelWidget">
+            <div className="block-right">
+              <div className="block-panel">
                 <PanelHeader panelTitle="Panel 3" />
                 Panel Content
               </div>
@@ -48,8 +46,8 @@ export default class Home extends Component {
           </div>
 
           {/* Everything in the BOTTOM goes here */}
-          <div className="bottomContainer">
-            <div className="bottomBlock">Bottom Block</div>
+          <div className="block-bottom">
+            Bottom Block
           </div>
         </Container>
       </>
